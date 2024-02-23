@@ -15,7 +15,7 @@ class _CustomBototomSheetState extends State<CustomBototomSheet> {
       builder: (BuildContext context) {
         return Container(
           height: 200,
-          color: Colors.amber,
+          color: Color.fromARGB(128, 255, 255, 255),
           child: const Center(
             child: Text('BottomSheet'),
           ),
