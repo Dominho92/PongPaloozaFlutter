@@ -195,5 +195,24 @@ Widget logoWidgetHorizontal() {
 
 // ----------------- End of Logo Widget Horizontal ----------------- //
 
-/////////////////////////////////////////////////// END LOGO WIDGET ////////////////////////////////////////////
+// Image Button Widget //
 
+Widget imageButton(String imagePath, String buttonText, Function onPressed) {
+  return GestureDetector(
+    onTap: () {
+      onPressed();
+    },
+    child: SizedBox(
+      width: 344,
+      height: 56,
+      child: Image.asset(
+        imagePath,
+        height: 56,
+        width: 344,
+        fit: BoxFit.cover,
+      ),
+    ),
+  );
+}
+
+/////////////////////////////////////////////////// END LOGO WIDGET ////////////////////////////////////////////
