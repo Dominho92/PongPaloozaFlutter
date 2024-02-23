@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "545750832761",
+    "firebase_url": "https://paloozatestapp-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "paloozatestapp",
+    "storage_bucket": "paloozatestapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545750832761:android:c9e7797cd41850aeb6e6a8",
+        "android_client_info": {
+          "package_name": "com.example.paloozatestapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLpCp9Uu8fy5Bp-JA9BUmpBmyIPYtnvPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
