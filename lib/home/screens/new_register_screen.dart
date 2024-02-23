@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:paloozatestapp/home/models/login_screen.dart';
+import 'package:paloozatestapp/home/screens/login_screen.dart';
 import 'package:paloozatestapp/services/auth_services.dart';
 
 class ShowRegisterScreen extends StatelessWidget {
