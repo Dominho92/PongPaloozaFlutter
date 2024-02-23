@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:flutter/material.dart';
@@ -112,6 +114,7 @@ class _SignInPageState extends State<SignInPage> {
         );
       }
     } catch (e) {
+      // ignore: avoid_print
       print(e);
     }
   }
@@ -119,7 +122,7 @@ class _SignInPageState extends State<SignInPage> {
   void navigateToSignUp() {
     Navigator.push(
       context,
-      MaterialPageRoute(builder: (context) => ShowRegisterScreen()),
+      MaterialPageRoute(builder: (context) => const ShowRegisterScreen()),
     );
   }
 

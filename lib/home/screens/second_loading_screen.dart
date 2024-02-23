@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_unnecessary_containers
+
 import 'package:flutter/material.dart';
 import 'package:paloozatestapp/home/screens/login_screen.dart';
 import 'package:paloozatestapp/home/screens/register_screen.dart';

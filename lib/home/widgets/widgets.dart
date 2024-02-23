@@ -1,5 +1,6 @@
+// ignore_for_file: avoid_unnecessary_containers
+
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
 
 //////////////////////////////////////////////// BAR WIDGETS //////////////////////////////////////////////
 
@@ -216,3 +217,6 @@ Widget imageButton(String imagePath, String buttonText, Function onPressed) {
 }
 
 /////////////////////////////////////////////////// END LOGO WIDGET ////////////////////////////////////////////
+///
+///
+

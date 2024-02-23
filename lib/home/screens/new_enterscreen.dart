@@ -25,7 +25,10 @@ class _SencondEnterScreenState extends State<SencondEnterScreen> {
             ),
             child: Center(
               child: Column(
-                children: [const SizedBox(height: 160), logoWidget()],
+                children: [
+                  const SizedBox(height: 140),
+                  logoWidgetHorizontal(),
+                ],
               ),
             ),
           ),

@@ -19,6 +19,7 @@ class _LastMatchesState extends State<LastMatches> {
             context: context,
             builder: (BuildContext context) {
               return CupertinoAlertDialog(
+                // ignore: unnecessary_string_interpolations
                 title: Text("$lastMatch"),
                 content: Text("You played $lastMatchResults // Win? $isWin"),
                 actions: <Widget>[
@@ -37,7 +38,7 @@ class _LastMatchesState extends State<LastMatches> {
         height: 60,
         width: 100,
         decoration: BoxDecoration(
-            color: Color.fromARGB(255, 154, 154, 154),
+            color: const Color.fromARGB(255, 154, 154, 154),
             borderRadius: BorderRadius.circular(10)),
         child: Row(
           children: [
