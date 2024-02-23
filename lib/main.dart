@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:paloozatestapp/models/loadingscreen.dart';
+import 'package:paloozatestapp/home/models/loadingscreen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'services/firebase_options.dart';
 
