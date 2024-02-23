@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
-import 'package:paloozatestapp/models/second_loading_screen.dart';
+import 'package:paloozatestapp/home/models/second_loading_screen.dart';
 
 class LoadupScreen extends StatelessWidget {
   const LoadupScreen({Key? key}) : super(key: key);

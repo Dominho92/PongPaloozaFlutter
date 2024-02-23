@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:paloozatestapp/models/create_match_new.dart';
-import 'package:paloozatestapp/models/last_matches.dart';
-import 'package:paloozatestapp/widgets/widgets.dart';
+import 'package:paloozatestapp/home/models/create_match_new.dart';
+import 'package:paloozatestapp/home/models/last_matches.dart';
+import 'package:paloozatestapp/home/widgets/widgets.dart';
 
 class MainPageScreen extends StatelessWidget {
   const MainPageScreen({Key? key}) : super(key: key);

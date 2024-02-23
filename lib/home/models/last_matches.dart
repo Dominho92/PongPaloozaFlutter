@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:paloozatestapp/widgets/widgets.dart';
+import 'package:paloozatestapp/home/widgets/widgets.dart';
 
 class LastMatches extends StatefulWidget {
   const LastMatches({super.key});
