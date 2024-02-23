@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:paloozatestapp/home/screens/create_match_new.dart';
-import 'package:paloozatestapp/home/screens/last_matches.dart';
+import 'package:paloozatestapp/home/screens/create_match_screen.dart';
+import 'package:paloozatestapp/home/screens/last_matches_screen.dart';
 import 'package:paloozatestapp/home/widgets/widgets.dart';
 
 class MainPageScreen extends StatelessWidget {
