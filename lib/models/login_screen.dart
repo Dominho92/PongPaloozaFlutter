@@ -2,8 +2,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:paloozatestapp/screens/mainpage.dart';
-import 'package:paloozatestapp/screens/new_register_screen.dart';
+import 'package:paloozatestapp/models/mainpage.dart';
+import 'package:paloozatestapp/models/new_register_screen.dart';
 import 'package:paloozatestapp/widgets/widgets.dart';
 
 class ShowSignIn extends StatelessWidget {

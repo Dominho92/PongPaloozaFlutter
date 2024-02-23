@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:paloozatestapp/screens/login_screen.dart';
-import 'package:paloozatestapp/screens/new_register_screen.dart';
+import 'package:paloozatestapp/models/login_screen.dart';
+import 'package:paloozatestapp/models/new_register_screen.dart';
 import 'package:paloozatestapp/widgets/widgets.dart';
 
 class SecondLoadingScreen extends StatelessWidget {
