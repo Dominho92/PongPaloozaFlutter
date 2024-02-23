@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:paloozatestapp/screens/mainpage.dart';
 import 'package:paloozatestapp/screens/new_register_screen.dart';
-import 'package:paloozatestapp/models/widgets.dart';
+import 'package:paloozatestapp/widgets/widgets.dart';
 
 class ShowSignIn extends StatelessWidget {
   const ShowSignIn({Key? key}) : super(key: key);

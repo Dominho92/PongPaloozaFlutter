@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:paloozatestapp/models/widgets.dart';
+import 'package:paloozatestapp/widgets/widgets.dart';
 
 class CreateNewMatch extends StatefulWidget {
   const CreateNewMatch({super.key});
