@@ -13,23 +13,21 @@ class _SencondEnterScreenState extends State<SencondEnterScreen> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: SafeArea(
-        child: Scaffold(
-          bottomSheet: const CustomBototomSheet(),
-          body: Container(
-            decoration: const BoxDecoration(
-              image: DecorationImage(
-                image: AssetImage("assets/images/bgONE.png"),
-                fit: BoxFit.cover,
-              ),
+      home: Scaffold(
+        bottomSheet: const CustomBototomSheet(),
+        body: Container(
+          decoration: const BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage("assets/images/bgONE.png"),
+              fit: BoxFit.cover,
             ),
-            child: Center(
-              child: Column(
-                children: [
-                  const SizedBox(height: 140),
-                  logoWidgetHorizontal(),
-                ],
-              ),
+          ),
+          child: Center(
+            child: Column(
+              children: [
+                const SizedBox(height: 140),
+                logoWidgetHorizontal(),
+              ],
             ),
           ),
         ),

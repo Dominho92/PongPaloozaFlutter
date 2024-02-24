@@ -15,7 +15,7 @@ class _CustomBototomSheetState extends State<CustomBototomSheet> {
   @override
   Widget build(BuildContext context) {
     return BottomSheet(
-      backgroundColor: const Color.fromARGB(255, 255, 255, 255).withOpacity(0),
+      backgroundColor: Color.fromRGBO(255, 255, 255, 0).withOpacity(0),
       onClosing: () {},
       builder: (BuildContext context) {
         return Container(
