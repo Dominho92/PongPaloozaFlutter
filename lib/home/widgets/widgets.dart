@@ -10,7 +10,7 @@ PreferredSizeWidget customAppBar(String title) {
   return AppBar(
       toolbarHeight: 40,
       centerTitle: true,
-      backgroundColor: const Color.fromARGB(255, 119, 119, 119),
+      backgroundColor: Color.fromARGB(255, 119, 119, 119),
       title: Text(
         title,
         style: const TextStyle(color: Color.fromARGB(255, 5, 5, 5)),

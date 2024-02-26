@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:paloozatestapp/home/widgets/switch_button.dart';
 import 'package:paloozatestapp/home/widgets/widgets.dart';
 
 class CreateNewMatch extends StatefulWidget {
@@ -44,13 +45,19 @@ class _CreateNewMatchState extends State<CreateNewMatch> {
                   createMatchSpinner("How Many Teams?"),
                   const SizedBox(height: 30),
                   Container(
-                    padding: const EdgeInsets.fromLTRB(10, 10, 140, 0),
-                    child: const Text(
-                      "Shuffle Teams?",
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 239, 239, 239),
-                          fontSize: 15,
-                          fontWeight: FontWeight.bold),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        const Text(
+                          "Shuffle Teams?",
+                          style: TextStyle(
+                              color: Color.fromARGB(255, 239, 239, 239),
+                              fontSize: 15,
+                              fontWeight: FontWeight.bold),
+                        ),
+                        const SizedBox(width: 80),
+                        SwitchCustom()
+                      ],
                     ),
                   ),
                   const SizedBox(height: 40),
