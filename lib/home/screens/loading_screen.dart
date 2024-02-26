@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'dart:async';
-import 'package:paloozatestapp/home/screens/second_loading_screen.dart';
+import 'package:paloozatestapp/home/screens/second_loadingscreen.dart';
 
 class LoadupScreen extends StatelessWidget {
   const LoadupScreen({Key? key}) : super(key: key);
@@ -27,7 +28,7 @@ class MyLoadingState extends State<LoadingScreen> {
       () {
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => const SecondLoadingScreen()),
+          MaterialPageRoute(builder: (context) => ShowCustomBottomSheet()),
         );
       },
     );
@@ -55,7 +56,9 @@ class MyLoadingState extends State<LoadingScreen> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                Image.asset('assets/logo.png', height: 100, width: 100),
+                Image.asset('assets/logo.png', height: 100, width: 100)
+                    .animate(delay: const Duration(milliseconds: 200))
+                    .fadeIn(),
                 const SizedBox(height: 20),
                 const Text("Loading...",
                     style: TextStyle(
