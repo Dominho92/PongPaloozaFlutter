@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:paloozatestapp/home/screens/set_teams_screen.dart';
 import 'package:paloozatestapp/home/widgets/matchspinner.dart';
 import 'package:paloozatestapp/home/widgets/switch_button.dart';
 
@@ -65,7 +66,7 @@ class _CreateNewMatchState extends State<CreateNewMatch> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => const CreateNewMatch()));
+                              builder: (context) => const SetTeams()));
                     },
                     child: const Text("Next Step",
                         style:

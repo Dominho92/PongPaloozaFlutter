@@ -21,6 +21,7 @@ class NewRegisterScreen extends StatefulWidget {
 class _NewRegisterScreenState extends State<NewRegisterScreen> {
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
+  TextEditingController usernameController = TextEditingController();
 
   bool showLoading = false;
 
@@ -90,7 +91,9 @@ class _NewRegisterScreenState extends State<NewRegisterScreen> {
       style: const TextStyle(color: Colors.white),
       decoration: const InputDecoration(
         focusedBorder: UnderlineInputBorder(
-          borderSide: BorderSide(color: Colors.white),
+          borderSide: BorderSide(
+            color: Colors.white,
+          ),
         ),
         hintText: 'Enter your Email',
         hintStyle: TextStyle(color: Colors.white),
@@ -109,6 +112,22 @@ class _NewRegisterScreenState extends State<NewRegisterScreen> {
           borderSide: BorderSide(color: Colors.white),
         ),
         hintText: 'Enter your Password',
+        hintStyle: TextStyle(color: Colors.white),
+      ),
+    );
+  }
+
+  Widget UsernameField() {
+    return TextField(
+      showCursor: true,
+      cursorColor: const Color.fromARGB(255, 0, 179, 255),
+      controller: usernameController,
+      style: const TextStyle(color: Colors.white),
+      decoration: const InputDecoration(
+        focusedBorder: UnderlineInputBorder(
+          borderSide: BorderSide(color: Colors.white),
+        ),
+        hintText: 'Enter your Username',
         hintStyle: TextStyle(color: Colors.white),
       ),
     );
