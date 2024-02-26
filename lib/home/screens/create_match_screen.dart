@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:paloozatestapp/home/widgets/matchspinner.dart';
 import 'package:paloozatestapp/home/widgets/switch_button.dart';
-import 'package:paloozatestapp/home/widgets/widgets.dart';
 
 class CreateNewMatch extends StatefulWidget {
   const CreateNewMatch({super.key});
@@ -29,7 +29,6 @@ class _CreateNewMatchState extends State<CreateNewMatch> {
                 style: TextStyle(color: Color.fromARGB(255, 5, 5, 5)),
               ),
             ),
-            bottomNavigationBar: customBottomBar(),
             body: Container(
                 decoration: const BoxDecoration(
                   image: DecorationImage(

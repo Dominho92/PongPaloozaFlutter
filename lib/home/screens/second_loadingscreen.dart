@@ -1,8 +1,8 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
+import 'package:paloozatestapp/home/models/style.dart';
 import 'package:paloozatestapp/home/screens/login_screen.dart';
 import 'package:paloozatestapp/home/screens/register_screen.dart';
-import 'package:paloozatestapp/home/widgets/widgets.dart';
 
 class ShowCustomBottomSheet extends StatelessWidget {
   @override

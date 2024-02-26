@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:paloozatestapp/home/widgets/widgets.dart';
 
 class LastMatches extends StatefulWidget {
   const LastMatches({super.key});
@@ -78,7 +77,6 @@ class _LastMatchesState extends State<LastMatches> {
             style: TextStyle(color: Color.fromARGB(255, 5, 5, 5)),
           ),
         ),
-        bottomNavigationBar: customBottomBar(),
         body: Container(
           decoration: const BoxDecoration(
             image: DecorationImage(

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:paloozatestapp/home/models/style.dart';
 import 'package:paloozatestapp/home/screens/create_match_screen.dart';
 import 'package:paloozatestapp/home/screens/last_matches_screen.dart';
-import 'package:paloozatestapp/home/widgets/widgets.dart';
 
 class MainPageScreen extends StatelessWidget {
   const MainPageScreen({Key? key}) : super(key: key);
@@ -25,7 +25,6 @@ class _MainPageState extends State<MainPage> {
     return MaterialApp(
       home: Scaffold(
         appBar: customAppBar("Home"),
-        bottomNavigationBar: customBottomBar(),
         body: Container(
           decoration: const BoxDecoration(
             image: DecorationImage(
