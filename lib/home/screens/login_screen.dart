@@ -2,9 +2,9 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:paloozatestapp/home/mainpage.dart';
 import 'package:paloozatestapp/home/models/style.dart';
 import 'package:paloozatestapp/home/screens/register_screen.dart';
+import 'package:paloozatestapp/main.dart';
 
 class ShowSignIn extends StatelessWidget {
   const ShowSignIn({Key? key}) : super(key: key);
@@ -77,7 +77,7 @@ class _SignInPageState extends State<SignInPage> {
           await _analytics.logLogin(loginMethod: 'email');
           Navigator.pushReplacement(
             context,
-            MaterialPageRoute(builder: (context) => const MainPageScreen()),
+            MaterialPageRoute(builder: (context) => const MainApp()),
           );
         }
       } catch (e) {
@@ -93,7 +93,7 @@ class _SignInPageState extends State<SignInPage> {
         await _analytics.logLogin(loginMethod: 'email');
         Navigator.pushReplacement(
           context,
-          MaterialPageRoute(builder: (context) => const MainPageScreen()),
+          MaterialPageRoute(builder: (context) => const MainApp()),
         );
       }
     } catch (e) {
@@ -108,7 +108,7 @@ class _SignInPageState extends State<SignInPage> {
         await _analytics.logEvent(name: 'login_anonymous');
         Navigator.pushReplacement(
           context,
-          MaterialPageRoute(builder: (context) => const MainPageScreen()),
+          MaterialPageRoute(builder: (context) => const MainApp()),
         );
       }
     } catch (e) {

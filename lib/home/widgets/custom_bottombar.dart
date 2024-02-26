@@ -35,6 +35,7 @@ class _CustomBottomBarState extends State<CustomBottomBar> {
         children: _pages,
       ),
       bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Color.fromARGB(255, 119, 119, 119),
         type: BottomNavigationBarType.fixed,
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
